@@ -16,6 +16,7 @@ const Sidebar = () => {
           const {links, page} = item
           return <article key={index}>
             <h4>{page}</h4>
+            <div className="sidebar-sublinks"></div>
           </article>
         })}
       </div>
