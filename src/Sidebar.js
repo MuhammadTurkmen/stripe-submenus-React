@@ -13,7 +13,8 @@ const Sidebar = () => {
       </button>
       <div className="sidebar-links">
         {sublinks.map((item, index) => {
-          const {links, pages} = item
+          const {links, page} = item
+          return <article key={index}></article>
         })}
       </div>
     </div>
