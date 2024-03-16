@@ -31,3 +31,7 @@ const AppProvider = ({children}) => {
         closeSidebar
     }}>{children}</AppContext.Provider>
 }
+
+export const useGlobalContext = () => {
+    return useContext(AppContext)
+}
