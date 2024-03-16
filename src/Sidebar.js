@@ -19,7 +19,10 @@ const Sidebar = () => {
             <div className="sidebar-sublinks">
               {links.map((link, index) => {
                 const {url, icon, label} = link
-                return <a key={index} href={url}></a>
+                return <a key={index} href={url}>
+                  {icon}
+                  {label}
+                </a>
               })}
             </div>
           </article>
