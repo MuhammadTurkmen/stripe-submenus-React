@@ -16,7 +16,9 @@ const Navbar = () => {
       </div>
       <ul className='nav-links'>
         <li>
-          <button className='link-btn'></button>
+          <button className='link-btn'>
+            products
+          </button>
         </li>
       </ul>
     </div>
