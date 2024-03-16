@@ -7,7 +7,7 @@ const Hero = () => {
   return <section className='hero'>
     <div className="hero-center">
       <article className='hero-info'>
-        
+        <h1>Payments infrastructure for the internet</h1>
       </article>
       <article className='hero-images'>
         <img src={phoneImg} className='phone-img' alt="phone" />
