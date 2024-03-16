@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navcenter">
       <div className="nav-header">
         <img src={logo} className='nav-logo' alt="stripe" />
-        <button className='btn toggle-btn'></button>
+        <button className='btn toggle-btn' onClick={openSidebar}></button>
       </div>
       <ul className='nav-links'>
 
