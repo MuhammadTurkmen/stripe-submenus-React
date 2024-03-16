@@ -6,7 +6,9 @@ import { useGlobalContext } from './context'
 const Sidebar = () => {
   const {isSidebarOpen, closeSidebar} = useGlobalContext()
 
-  return <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}></aside>
+  return <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}>
+    <div className="sidebar"></div>
+  </aside>
 }
 
 export default Sidebar
