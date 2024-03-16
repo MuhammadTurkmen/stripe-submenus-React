@@ -7,7 +7,9 @@ const Hero = () => {
   return <section className='hero'>
     <div className="hero-center">
       <article></article>
-      <article className='hero-images'></article>
+      <article className='hero-images'>
+        <img src={phoneImg} className='phone-img' alt="" />
+      </article>
     </div>
   </section>
 }
