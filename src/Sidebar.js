@@ -7,7 +7,9 @@ const Sidebar = () => {
   const {isSidebarOpen, closeSidebar} = useGlobalContext()
 
   return <aside className={`${isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'}`}>
-    <div className="sidebar"></div>
+    <div className="sidebar">
+      <button className='close-btn'></button>
+    </div>
   </aside>
 }
 
