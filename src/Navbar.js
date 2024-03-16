@@ -7,7 +7,7 @@ import { useGlobalContext } from './context'
 const Navbar = () => {
   const {openSidebar, openSubmenu, closeSubmenu} = useGlobalContext()
   return <nav className="nav">
-    <div className="navcenter">
+    <div className="nav-center">
       <div className="nav-header">
         <img src={logo} className='nav-logo' alt="stripe" />
         <button className='btn toggle-btn' onClick={openSidebar}>
@@ -15,7 +15,9 @@ const Navbar = () => {
         </button>
       </div>
       <ul className='nav-links'>
-
+        <li>
+          <button className='link-btn'></button>
+        </li>
       </ul>
     </div>
   </nav>
