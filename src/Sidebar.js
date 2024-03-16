@@ -11,6 +11,7 @@ const Sidebar = () => {
       <button className='close-btn' onClick={closeSidebar}>
         <FaTimes />
       </button>
+      <div className="sidebar-links"></div>
     </div>
   </aside>
 }
