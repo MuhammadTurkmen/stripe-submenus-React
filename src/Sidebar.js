@@ -12,7 +12,9 @@ const Sidebar = () => {
         <FaTimes />
       </button>
       <div className="sidebar-links">
-        {sublinks.map((item, index))}
+        {sublinks.map((item, index) => {
+          const {links, pages} = item
+        })}
       </div>
     </div>
   </aside>
