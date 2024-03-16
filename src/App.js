@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
     </>
   )
 }
