@@ -19,7 +19,7 @@ export const AppProvider = ({children}) => {
     
 
     const openSubmenu = (text, coordinates) => {
-        const page = sublinks.find((link))
+        const page = sublinks.find((link) => link.page === text)
         setLocation(coordinates)
         setIsSubmenuOpen(true)
     }
