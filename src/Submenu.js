@@ -10,7 +10,9 @@ const Submenu = () => {
     submenu.style.left = `${center}px`
     submenu.style.top = `${bottom}px`
   }, [location])
-  return <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`} ref={container}>submenu</aside>
+  return <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`} ref={container}>
+    <h4>{page}</h4>
+  </aside>
 }
 
 export default Submenu
