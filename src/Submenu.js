@@ -8,12 +8,17 @@ const Submenu = () => {
   const container = useRef(null)
   const [columns, setColumns] = useState('col-2')
   useEffect(() => {
-    setColumns('col-2 ')
+    setColumns('col-2')
     const submenu = container.current
     const {center , bottom} = location
     submenu.style.left = `${center}px`
     submenu.style.top = `${bottom}px`
     
+    if(links.length === 3) {
+      setColumns('col-3')
+    }
+
+
   }, [location])
   return <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`} ref={container}>
     <h4>{page}</h4>
