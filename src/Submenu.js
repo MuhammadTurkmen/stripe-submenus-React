@@ -7,6 +7,7 @@ const Submenu = () => {
   useEffect(() => {
     const submenu = container.current
     const {center , bottom} = location
+    submenu.style.left = `${center}px`
   }, [location])
   return <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`} ref={container}>submenu</aside>
 }
