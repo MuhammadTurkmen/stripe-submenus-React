@@ -8,7 +8,7 @@ const Submenu = () => {
   const container = useRef(null)
   const [columns, setColumns] = useState('col-2')
   useEffect(() => {
-    setColumns('col; ')
+    setColumns('col-2 ')
     const submenu = container.current
     const {center , bottom} = location
     submenu.style.left = `${center}px`
