@@ -14,7 +14,7 @@ const Submenu = () => {
     <h4>{page}</h4>
     <div className={`submenu-center col-2`}>
       {links.map((link, index) => {
-
+        const {label, icon, url} = link
       })}
     </div>
   </aside>
