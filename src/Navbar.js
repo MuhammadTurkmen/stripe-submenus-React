@@ -9,6 +9,7 @@ const Navbar = () => {
   
   const displaySubmenu = (e) => {
     const page = e.target.textContent
+    const tempBtn = e.target.getBoundingClientRect()
     openSubmenu()
   }
   
