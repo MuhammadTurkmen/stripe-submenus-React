@@ -15,7 +15,11 @@ const Navbar = () => {
     openSubmenu(page, {center, bottom})
   }
   
-  return <nav className="nav" onMouseOver={}>
+  const handleSubmenu = (e) => {
+    
+  }
+
+  return <nav className="nav" onMouseOver={handleSubmenu}>
     <div className="nav-center">  
       <div className="nav-header">
         <img src={logo} className='nav-logo' alt="stripe" />
