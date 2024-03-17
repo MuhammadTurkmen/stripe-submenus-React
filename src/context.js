@@ -15,7 +15,7 @@ export const AppProvider = ({children}) => {
     }
     
 
-    const openSubmenu = () => {
+    const openSubmenu = (text, coordinates) => {
         setIsSubmenuOpen(true)
     }
     const closeSubmenu = () => {
