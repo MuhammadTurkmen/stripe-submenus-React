@@ -10,6 +10,7 @@ const Navbar = () => {
   const displaySubmenu = (e) => {
     const page = e.target.textContent
     const tempBtn = e.target.getBoundingClientRect()
+    const center = (tempBtn.left + tempBtn.right) / 2
     openSubmenu()
   }
   
