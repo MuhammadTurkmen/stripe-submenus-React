@@ -22,7 +22,7 @@ const Submenu = () => {
     }
 
 
-  }, [location])
+  }, [location, links])
   return <aside className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`} ref={container}>
     <h4>{page}</h4>
     <div className={`submenu-center ${columns}`}>
