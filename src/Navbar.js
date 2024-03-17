@@ -8,7 +8,7 @@ const Navbar = () => {
   const {openSidebar, openSubmenu, closeSubmenu} = useGlobalContext()
   
   const displaySubmenu = (e) => {
-
+    openSubmenu()
   }
   
   return <nav className="nav">
